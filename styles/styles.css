@@ -1,0 +1,70 @@
+* {
+    padding:0;
+    margin: 0;
+
+
+}
+
+h3 {
+   color:  rgb(94, 21, 243);
+
+
+}
+
+body {
+    /*background-color: #070efc;*/
+    background-color: rgb(7, 14,28);
+   
+
+
+}
+
+.nav-link {
+    color: white;
+    display: inline;
+    align-items: baseline;
+}
+
+header {
+
+        border-bottom: 1px solid grey;
+}
+
+i {
+    margin-top: 10px;
+    margin-right: -8px;
+}
+
+.acesso {
+
+        padding: 5px;
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction:column;
+        text-align: center;
+
+      
+}
+
+@media (max-width: 1000px) {
+
+    aside {display: none;}
+
+    .responsivo {
+        display: contents;
+
+
+    }
+
+}
+
+.henrique-photo img{
+    margin: 50px;
+    padding: 25px;
+    border-radius: 400px;
+    width: 300px;
+    height: 400px;
+
+}
