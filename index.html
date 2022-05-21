@@ -88,31 +88,33 @@
 </div>
 
 
-<div class="container" style="border-bottom: 4px solid rgb(94, 21, 243); display: flex; justify-content:left; align-items: center; color: white;" id="quemsou">
+<div class="container" style="border-bottom: 4px solid rgb(94, 21, 243); display: block; justify-content:left; align-items: center; color: white; " id="quemsou">
 
-    <div class="henrique-photo">
-    <img src="./imagens/henrique foto.jpg" alt="henrique_photo">
+    <div style="margin-top: 15px; display:flex; ">
+        <i class="fa-solid fa-person fa-xl" style="color:  rgb(98, 119,  215); margin-top: 20px; margin-right: 5px;"></i><h2> Quem sou eu </h2>
+
     </div>
+   
+    <div class="quemsou-container">
+        <div class="henrique-photo">
+        <img src="./imagens/henrique foto.jpg" alt="henrique_photo">
+        </div>
 
-    <div class="henrique-photo-menor">
-        <img src="./imagens/henrique foto.jpg" alt="henrique_photo" style="margin: 50px;padding: 25px;border-radius: 400px;width: 250px;height: 300px;">
-     </div>
+        <div class="henrique-photo-menor">
+            <img src="./imagens/henrique foto.jpg" alt="henrique_photo" style="margin: 10px;padding: 25px;border-radius: 400px;width: 250px;height: 300px;">
+        </div>
 
-    <div style="display: table-row;">
         
-        <div style="margin-top: -100px;" >
-            <h2 > Quem sou eu</h2>
-        </div>
-
-        <div class="texto" style="margin-top: 50px;">
-            <p> Olá lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum   </p>
-        </div>
-  </div>
+            <div >
+                    <p> Olá lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum   </p>
+                
+            </div>
+        </div>   
 </div>
 
-<div class="container grid3" style="border-bottom: 4px solid rgb(94, 21, 243); align-items: center;" id="Habilidades">
+<div class="container " style="border-bottom: 4px solid rgb(94, 21, 243); align-items: center;" id="Habilidades">
 
-    <div class="grid3-item" style="margin-top: 15px; display:flex;">
+    <div style="margin-top: 15px; display:flex;">
         <i class="fa-solid fa-brain fa-xl" style="color:  rgb(98, 119,  215); margin-top: 20px; margin-right: 5px;"></i><h2 style="color:antiquewhite;"> Habilidades </h2>
 
     </div>
@@ -194,23 +196,59 @@
     </article>
 </div>
 
-<div class="container" style=" display: flex; justify-content:left; align-items: center; color: white;" id="Contatos">
+<div class="container" style=" display: block; justify-content:left; align-items: center; color: white;" id="Contatos">
 
-    <div style="margin-top: 15px; display:flex;">
+    <div style="margin-top: 15px; margin-bottom: 20px; display:flex;">
         <i class="fas fa-envelope fa-xl" style="color:  rgb(98, 119,  215); margin-top: 20px; margin-right: 5px;"></i><h2> Contatos </h2>
 
     </div>
 
+    <div class="container-contato-conteudo" style="display: flex; justify-content:space-evenly; align-items: center; align-self:center; flex-wrap: wrap;">
 
+        <article style="display:block; max-width: 500px; width: 100%; flex: auto;">
+            <div><h3><i class="fas fa-comment-dots fa-xl" style="color: rgb(94, 21, 243);" ></i> Vamos conversar? </h3></div>
+            
+            <div>
+               <p> Estou à procura de uma oportunidade na área de tecnologia. Atualmente estou focando meus estudos em tecnologias front-end.</p>
+               <p style="font-size: 20px;"> Entre em contato: </p>
+            </div>
+
+            <div style=" padding: 10px;">
+                <span style="font-size: 18px; color:rgb(94, 21, 243)"><i class="fa-solid fa-envelope" style="margin-right: 2px;"></i>henrique.assispera@gmail.com</span>
+             </div>
+
+            <div style="display: flex; gap: 20px; padding: 10px; ">
+                <a href="https://www.linkedin.com/in/henrique-pereira-67a533229/">
+                    <span style="color:rgb(94, 21, 243) ;font-size: 18px;"><i class="fa-brands fa-linkedin fa-xl"></i> Linkedin </span>
+                </a>
+                <a href="">
+                    <span style="color:rgb(94, 21, 243) ;"><i class="fa-brands fa-github fa-xl"></i> GitHub </span>
+                </a>
+                
+            </div>
+
+        </article>
+
+        <article  style="flex: auto;  max-width: 500px; width: 100%; text-align: center;">
+                <img src="./imagens/gif-unscreen.gif" alt="socialmedia" style="width: 360px;height: 360px; flex-wrap: wrap;" class="imagem-footer">
+        </article>
+    </div>
+
+   
 
 </div>
 
-
-
-
-
 <footer >
 
+    <div class="container" style="text-align: center; color: white;" >
+            <span>
+                ©2022. Todos os direitos reservados.
+            </span><br>
+
+            <span>
+                Site desenvolvido por Henrique Assis Pereira👍
+            </span>
+    </div>
 
 
 </footer>
