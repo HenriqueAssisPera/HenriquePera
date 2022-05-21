@@ -135,6 +135,10 @@ header i {
 
     }
 
+    .margin {
+        margin-bottom: 65px;
+    }
+
 }
 
 
@@ -190,10 +194,6 @@ header i {
 
 /* divisão projetos*/
 
-.container div {
-    margin: 0 2px;
-
-}
 
 .ProjetosContainer {
 
@@ -257,4 +257,10 @@ header i {
 .container-contato-conteudo article {
     flex: 1;
     margin-top: -50px;
+}
+
+.normal {
+
+         margin-top: 15px;
+        display: flex;
 }
