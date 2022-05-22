@@ -72,13 +72,23 @@ header i {
 .quemsou-container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    max-width: 1100px;
+    text-align: justify;
+    margin:auto;
+    max-width: 1050px;
     width: 100%;
     align-items: baseline;
-
 }
 
+
+
+.flex {
+
+    flex: auto;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
 
 .responsivo {
     display: none;
@@ -100,7 +110,6 @@ header i {
     
 
 }
-
 
 
 
@@ -279,6 +288,7 @@ header i {
     .margin {
         margin-bottom: 65px;
     }
+    
 
 }
 
@@ -298,5 +308,7 @@ header i {
         text-align: left;
 
     }
+
+    .quemsou-container {flex-wrap: wrap;}
 
 }
