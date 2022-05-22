@@ -103,19 +103,28 @@ header i {
 
 @media (max-width: 1000px) {
 
+    .head {    
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
     aside {
         display: none;
     }
 
     .responsivo {
         display: contents;
-
-
+        
     }
 
     .wrap {
         
         flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 80px 0 50px 0;
     }
 
     .henrique-photo-menor{
