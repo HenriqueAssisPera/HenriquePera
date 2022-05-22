@@ -275,11 +275,6 @@ header i {
 
     }
 
-    .imagem-footer {
-
-        display: none;
-
-    }
 
     .margin {
         margin-bottom: 65px;
@@ -295,7 +290,6 @@ header i {
         display: flex;
         margin-top: 65px;
         text-align: left;
-        justify-content: left;
         align-items: flex-start;
 
     }
