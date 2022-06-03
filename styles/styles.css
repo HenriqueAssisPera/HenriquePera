@@ -242,6 +242,10 @@ header i {
 
 .alinhando {text-align: center;}
 
+.margin {
+    margin-bottom: 35px;
+}
+
 @media (max-width: 1000px) {
 
     .head {    
@@ -286,7 +290,7 @@ header i {
 
 
     .margin {
-        margin-bottom: 65px;
+        margin-bottom: 55px;
     }
     
 
